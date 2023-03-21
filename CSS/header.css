@@ -1,5 +1,19 @@
-.logo {
-  max-width: 14rem;
-  height: 2.7rem;
-  cursor: pointer;
+.header {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+  width: 50vw;
+  background-color: yellow;
+}
+
+.nav-header ul {
+  display: flex;
+  width: 20vw;
+  justify-content: space-around;
 }
